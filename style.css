@@ -24,3 +24,31 @@
     font-size: 100px;
     font-family: monospace;
 }
+
+
+.mid-container{
+    background-color: lightsteelblue;
+    width: 100%;
+    position: relative;
+}
+.categorytitle{
+    padding: 25px;
+    text-align: center;
+    color: whitesmoke;  
+    font-size: 65px;
+    font-family: monospace;
+}
+
+.display-container{
+    width: 100%;
+    height: 500px;
+    background-color: lightsteelblue;
+    display: flex;
+}
+
+.book-display{
+    width: 100%;
+    height: 100%;
+    background-color: lightsteelblue;
+}
+
