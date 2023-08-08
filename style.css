@@ -10,7 +10,7 @@
 .logo{
     position: absolute;
     top: 50%;
-    left: 0%;
+    left: 3.75%;
     transform: translate(0%, -50%);
     max-width: 20%;
     width: auto;
@@ -25,6 +25,44 @@
     font-family: monospace;
 }
 
+.mobile-nav-icon{
+    display: none;
+    position: absolute;
+    bottom: 0%;
+    right: 0%;
+    max-width: 50%;
+    background-color: plum;
+    padding: 20px;
+    font-size: 25px;
+    color: whitesmoke;
+    font-family: monospace;
+}
+
+.navbar{
+    position: absolute;
+    bottom: 0%;
+    right: 0%;
+    max-width: 50%;
+    background-color: plum;
+}
+
+.navbar ul{
+    display: flex;
+    list-style: none;
+}
+
+.navbar li{
+    display: list-item;
+    margin-left: 35px;
+    margin-right: 35px;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-family: monospace;
+    font-size: 25px;
+}
 
 .mid-container{
     background-color: lightsteelblue;
@@ -41,21 +79,74 @@
 
 .display-container{
     width: 100%;
-    height: 500px;
+    height: 525px;
     background-color: lightsteelblue;
     display: flex;
 }
 
 .book-display{
     width: 100%;
-    height: 100%;
+    height: auto;
     background-color: lightsteelblue;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.book-cover{
+.book-display img{
+    margin-top: 10px;
+    margin-bottom: 10px;
     width: auto;
     height: 75%;
+    flex: 1;
+}
+
+.book-display h1{
+    color: whitesmoke;
+    font-family: monospace;
+    flex: 2;
+}
+
+.book-display h2{
+    color: whitesmoke;
+    font-family: monospace;
+    flex: 3;
+}
+
+@media (max-width: 768px){
+    /*Smaller screen navbar hamburger menu*/
+    .navbar {
+        display: none;
+    }
+
+    .navbar ul{
+        flex-direction: column;
+    }
+
+    .navbar.li{
+
+    }
+
+    .mobile-nav-icon {
+        display: block;
+    }
+
+    .mobile-nav-icon:hover+.navbar {
+        display: block;
+    }
+
+    .navbar:hover {
+        display: block;
+    }
+
+    /*Shrink title text on smaller screen*/
+    .title{
+        font-size: 50px;
+    }
+
+    /*Change 3 columns to 1 column*/
+    .display-container{
+        height: 1575px;
+        flex-direction: column;
+    }
 }
