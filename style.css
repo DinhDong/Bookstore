@@ -323,15 +323,25 @@
         display: flex;
     }
 
+    .imgcontainer{
+        align-items: center;
+        height: 600px;
+        flex-direction: column;
+    }
+
     .bigimage{
-        width: 55%;
+        width: 75%;
+        height: 50%;
         padding: 5px;
     }
 
     .smallimages{
-        width: 45%;
+        flex-direction: row;
+        width: 100%; 
+        height: 33%;
     }
     .smallimage{
+        height: 100%;
         padding: 5px
     }
 
