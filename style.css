@@ -258,7 +258,13 @@
     color: whitesmoke;
 }
 
-
+.contactsection{
+    padding: 20px;
+    text-align: center;
+    color: whitesmoke;  
+    font-size: 35px;
+    font-family: monospace;
+}
 @media (max-width: 992px){
     /*Smaller screen navbar hamburger menu*/
     .navbar {
