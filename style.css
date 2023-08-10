@@ -69,6 +69,7 @@
     width: 100%;
     position: relative;
 }
+
 .categorytitle{
     padding: 25px;
     text-align: center;
@@ -144,6 +145,114 @@
     text-align: right;
     margin-right: 5%;
 }
+
+.navhistory{
+    color: whitesmoke;
+    font-family: monospace;
+    margin-left: 5%;   
+    padding: 25px;
+    font-size: 20px;
+}
+
+.navhistory a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.picpricecontainer{
+    width: 100%;
+    height: 600px;
+    display: flex;
+}
+
+.imgcontainer{
+    width: 60%;
+    height: auto;
+    display: flex;
+}
+
+.bigimage{
+    width: 70%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.bigimage img{
+    max-width: 100%;
+    width: auto;
+    height: auto;
+}
+
+.smallimages{
+    width: 30%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.smallimage{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.smallimage img{
+    width: auto;
+    height: 100%;   
+}
+
+.purchasecontainer{
+    width: 40%;
+    height: auto;
+    display: flex;
+    color: whitesmoke;
+    font-family: monospace;
+    justify-content: center;
+    font-size: 50px;
+    align-items: center;
+    text-align: center;
+
+}
+
+.purchasecontainer button{
+    font-family: monospace;
+    font-size: 35px;
+    background-color: lightblue;
+    padding: 10px;
+    border: 0;
+}
+.purchasecontainer button a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.titledesccontainer{
+    margin: 0;
+}
+
+.booktitle{
+    font-family: monospace;
+    font-size: 75px;
+    margin: 25px;
+    margin-bottom: 0;
+    color: whitesmoke;
+}
+
+.bookdesc{
+    font-family: monospace;
+    font-size: 30px;
+    padding-top: 0;
+    padding: 25px;
+    color: whitesmoke;
+}
+
+
 @media (max-width: 768px){
     /*Smaller screen navbar hamburger menu*/
     .navbar {
