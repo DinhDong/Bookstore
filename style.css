@@ -253,7 +253,7 @@
 }
 
 
-@media (max-width: 768px){
+@media (max-width: 992px){
     /*Smaller screen navbar hamburger menu*/
     .navbar {
         display: none;
