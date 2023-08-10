@@ -70,6 +70,12 @@
     position: relative;
 }
 
+.midd-container{
+    background-color: lightsteelblue;
+    width: 100%;
+    position: relative;
+}
+
 .categorytitle{
     padding: 25px;
     text-align: center;
@@ -297,5 +303,45 @@
     .book-display{
         height: 30%;
         width: auto;
+    }
+
+    /*Picture and price rearrangement*/
+    .picpricecontainer{
+        flex-direction: column;
+        height: 800px;
+    }
+
+    .imgcontainer{
+        width: auto;
+        height: 50%;
+        display: flex;
+    }
+
+    .purchasecontainer{
+        width: auto;
+        height: 50%;
+        display: flex;
+    }
+
+    .bigimage{
+        width: 55%;
+        padding: 5px;
+    }
+
+    .smallimages{
+        width: 45%;
+    }
+    .smallimage{
+        padding: 5px
+    }
+
+    .bigimage img{
+        width: auto;
+        height: 100%;
+    }
+
+    .smallimage img{
+        width: auto;
+        height: 100%;
     }
 }
