@@ -31,7 +31,7 @@
     bottom: 0%;
     right: 0%;
     max-width: 50%;
-    background-color: plum;
+    background-color: #72CAE5;
     padding: 20px;
     font-size: 25px;
     color: whitesmoke;
@@ -43,11 +43,12 @@
     bottom: 0%;
     right: 0%;
     max-width: 50%;
-    background-color: plum;
+    background-color: #72CAE5;
 }
 
 .navbar ul{
     display: flex;
+    flex-direction: row;
     list-style: none;
 }
 
@@ -62,6 +63,24 @@
     color: whitesmoke;
     font-family: monospace;
     font-size: 25px;
+}
+
+.bottomnavbar{
+    width: 50%;
+}
+
+.bottomnavbar ul{
+    text-align: right;
+    list-style: none;
+    margin-right: 5%;
+}
+
+
+.bottomnavbar a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-family: monospace;
+    font-size: 20px;
 }
 
 .mid-container{
@@ -115,41 +134,28 @@
 }
 
 .bot-container{
-    background-color: lightblue;
+    background-color: #7A8899;
     width: 100%;
-    height: 275px;
+    height: 150px;
     display: flex;
+    justify-content: flex-end;
     position: relative;
 }
 
-.moreabout{
+
+.sociallinks{
+    text-align: left;
     width: 50%;
     height: 100%;
-}
-
-.moreabout h1{
     color: whitesmoke;
     font-family: monospace;
-    margin-left: 35px;
-    font-size: 30px;
+    font-size: 15px;
+    margin-left: 5%;
 }
 
-.moreabout p{
-    color: whitesmoke;
-    font-family: monospace;
-    margin-left: 5%;   
-    font-size: 20px;
-    white-space: normal;
-}
-
-.moreabout img{
+.sociallinks img{
     width: 50px;
     height: 50px;
-}
-
-#rightfoot.moreabout{
-    text-align: right;
-    margin-right: 5%;
 }
 
 .navhistory{
