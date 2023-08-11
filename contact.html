@@ -18,16 +18,60 @@
             </nav>
         </div>
 
-        <div class="mid-container">
+        <div class="midd-container">
             <div class="categorytitle">Contact Us</div>
+            <center>
+                <form action="form-processing" method="post" id="item-list">
 
-        <form action="form-processing" method="post" id="item-list">
+                    <fieldset>
+                        <legend>Purpose</legend>
+                        <label>Contact Purposes:</label>
+                        <select id="purpose" name="purpose" required>
+                            <option value="">Select an option</option>
+                            <option value="buy">I want to buy a book</option>
+                            <option value="sell">I want to sell a book</option>
+                        </select>
+                        <br>
+                        <br>
+                        <label for="product-select">Select product(s):</label>
+                        <br>
+                        <select id="product-select" name="product" multiple="">
+                            <option value="book1">Book 1</option>
+                            <option value="book2">Book 2</option>
+                            <option value="book3">Book 3</option>
+                            <option value="book4">Book 4</option>
+                            <option value="book5">Book 5</option>
+                            <option value="book6">Book 6</option>
+                            <option value="book7">Book 7</option>
+                            <option value="book8">Book 8</option>
+                            <option value="book9">Book 9</option>
+                            <option value="book10">Book 10</option>
+                            <option value="book11">Book 11</option>
+                            <option value="book12">Book 12</option>
+                        </select>
+                    </fieldset>
+                    <br>
+                    <fieldset>
+                        <legend>Personal</legend>
+                        <label>First Name</label>
+                        <input type="text" id="fname" name="fname" placeholder="First Name" required="">
+                        <br>
+                        <br>
+                        <label>Last Name:</label>
+                        <input type="text" id="lname" name="lname" placeholder="Last Name" required="">
+                        <br>
+                        <br>
+                        <label>Date of Birth:</label>
+                        <input type="date" name="birth" id="birth">
+                        <br>
+                        <br>
+                        <label>Phone Number:</label>
+                        <input type="text" id="phone" name="phone" placeholder="0123456789" required="">
+                    </fieldset>
 
-            <div class="contactsection">Purpose</div>
-            <div class="contactsection">Personal Info</div>
-            <div class="contactsection">Extras</div>
-
-        </form>
+                </form>
+                <br>
+            </center>
         </div>
 
         <div class="bot-container">
