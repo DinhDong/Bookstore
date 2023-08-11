@@ -1,3 +1,8 @@
+@font-face{
+    font-family: "strawberry-muffins";
+    src: url(assets/fonts/Strawberry\ Muffins\ Demo.ttf)
+}
+
 .top-container{
     background-color: lightblue;
     width: 100%;
@@ -22,7 +27,7 @@
     text-align: center;
     color: whitesmoke;  
     font-size: 100px;
-    font-family: monospace;
+    font-family: strawberry-muffins;
 }
 
 .mobile-nav-icon{
@@ -35,7 +40,7 @@
     padding: 20px;
     font-size: 25px;
     color: whitesmoke;
-    font-family: monospace;
+    font-family: strawberry-muffins;
 }
 
 .navbar{
@@ -61,7 +66,7 @@
 .navbar a{
     text-decoration: none;
     color: whitesmoke;
-    font-family: monospace;
+    font-family: strawberry-muffins;
     font-size: 25px;
 }
 
@@ -79,8 +84,14 @@
 .bottomnavbar a{
     text-decoration: none;
     color: whitesmoke;
-    font-family: monospace;
+    font-family: strawberry-muffins;
     font-size: 20px;
+}
+
+.mi-container{
+    background-color: lightsteelblue;
+    width: 100%;
+    position: relative;
 }
 
 .mid-container{
@@ -100,7 +111,7 @@
     text-align: center;
     color: whitesmoke;  
     font-size: 65px;
-    font-family: monospace;
+    font-family: strawberry-muffins;
 }
 
 .display-container{
@@ -129,7 +140,7 @@
 
 .book-display h1{
     color: whitesmoke;
-    font-family: monospace;
+    font-family: strawberry-muffins;
     flex: 2;
 }
 
@@ -148,7 +159,7 @@
     width: 50%;
     height: 100%;
     color: whitesmoke;
-    font-family: monospace;
+    font-family: strawberry-muffins;
     font-size: 15px;
     margin-left: 5%;
 }
@@ -160,7 +171,7 @@
 
 .navhistory{
     color: whitesmoke;
-    font-family: monospace;
+    font-family: strawberry-muffins;
     margin-left: 5%;   
     padding: 25px;
     font-size: 20px;
@@ -224,7 +235,7 @@
     height: auto;
     display: flex;
     color: whitesmoke;
-    font-family: monospace;
+    font-family: strawberry-muffins;
     justify-content: center;
     font-size: 50px;
     align-items: center;
@@ -233,7 +244,7 @@
 }
 
 .purchasecontainer button{
-    font-family: monospace;
+    font-family: strawberry-muffins;
     font-size: 35px;
     background-color: lightblue;
     padding: 10px;
@@ -249,7 +260,7 @@
 }
 
 .booktitle{
-    font-family: monospace;
+    font-family: strawberry-muffins;
     font-size: 75px;
     margin: 25px;
     margin-bottom: 0;
@@ -257,7 +268,7 @@
 }
 
 .bookdesc{
-    font-family: monospace;
+    font-family: strawberry-muffins;
     font-size: 30px;
     padding-top: 0;
     padding: 25px;
@@ -269,7 +280,7 @@
     text-align: center;
     color: whitesmoke;  
     font-size: 35px;
-    font-family: monospace;
+    font-family: strawberry-muffins;
 }
 
 fieldset{
@@ -281,28 +292,28 @@ fieldset{
 }
 
 legend{
-    font-family: monospace;
+    font-family: strawberry-muffins;
     font-size: 25px;
 }
 
 label{
     color: whitesmoke;
-    font-family: monospace;
+    font-family: strawberry-muffins;
     font-size: 20px;
 }
 
 input{
-    font-family: monospace;
+    font-family: strawberry-muffins;
     font-size: 20px;
 }
 
 select{
-    font-family: monospace;
+    font-family: strawberry-muffins;
     font-size: 20px;
 }
 
 textarea{
-    font-family: monospace;
+    font-family: strawberry-muffins;
     font-size: 20px;
 }
 
@@ -340,6 +351,10 @@ textarea{
     }
 
     /*Change 3 columns to 1 column*/
+    .mi-container{
+        height: 4000px;
+    }
+
     .mid-container{
         height: 3300px;
     }
